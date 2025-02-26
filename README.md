@@ -1,2 +1,83 @@
-# wedding.github.io
-Wedding of Sophy and Thavann simulation
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Thavanns Wedding</title>
+        <style>
+            body{
+                background-color: aqua;
+                font-family: Arial, sans-serif;
+            }
+            #thetitle{
+                text-align: center;
+                color: blue;
+                border: 2px solid blueviolet;
+                display: inline-block;
+                padding: 10px;
+                border-radius: 10px;
+                background-color: thistle;
+                margin: 10px;
+                font-size: 30px;
+
+
+            }
+            #image{
+                float: right;
+                margin-right: 10px;
+                margin-left: auto;
+                margin-right: auto;
+                width: 30%;
+                border: 5px solid yellow;
+                border-radius: 10px;
+            }
+            #titles{
+                color: red;
+                border: 2px solid blueviolet;
+                border-radius: 10px;
+                padding: 5px;
+                margin: 10px;
+                display: inline-block;
+                background-color: thistle;
+            }
+            #note{
+                margin: 10px;
+                padding: 10px;
+                border: 2px solid blueviolet;
+                border-radius: 10px;
+                background-color: thistle;
+                font-size: 17px;
+                display: inline-block;
+
+            }
+            .details{
+                margin: 10px;
+                padding: 10px;
+                border: 2px solid blueviolet;
+                border-radius: 10px;
+                background-color: thistle;
+                font-size: 17px;
+                display: inline-block;
+            }
+        </style>
+    </head>
+    <body>
+        
+        <h1 id="thetitle">You're invited to this beutifuel Couples wedding!!!</h1>
+        <img id="image" src="photo1.jpg" alt="Thavann and Sophy" width="500">
+
+        <h2 id="titles">Note:</h2>
+        <div id="note"><p>Thavann and Sophy are getting married and they want you to be there to celebrate with them.</p>
+        <p>They are so excited to share this special day with you and can't wait to see you there!</p></div>
+        
+        <h2 id="titles">The details:</h2>
+        <div class="details">
+        <ul>
+            <li>It's going to be super awesome.</li>
+            <li>It's taking place at *****.</li>
+            <li>It's on the **/**/**</li>
+        </ul>
+        </div>
+        
+    </body>
+</html>
+
