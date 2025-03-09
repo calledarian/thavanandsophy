@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;}
+#thetitle{
+    text-align: center;
+    color: blue;
+    border: 2px solid blueviolet;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: thistle;
+    margin: 10px;
+    font-size: 30px;}
+#image{
+    float: right;
+    margin-right: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+    border: 5px solid yellow;
+    border-radius: 10px;
+}
+#titles{
+    color: red;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    display: inline-block;
+    background-color: thistle;
+}
+#note{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: thistle;
+    font-size: 17px;
+    display: inline-block;
+
+}
+.details{
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid blueviolet;
+    border-radius: 10px;
+    background-color: thistle;
+    font-size: 17px;
+    display: inline-block;
+}
